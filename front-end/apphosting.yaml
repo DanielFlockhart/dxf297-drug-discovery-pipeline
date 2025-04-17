@@ -1,0 +1,14 @@
+# Example apphosting.yaml for Firebase App Hosting -> Cloud Run
+# Documentation: https://firebase.google.com/docs/app-hosting/configure#cloud-run
+
+build:
+
+runConfig:
+  # Configure how your service runs on Cloud Run:
+  minInstances: 0     # scale to zero when idle
+  maxInstances: 100   # limit scaling costs
+  concurrency: 80
+  cpu: 1
+  memoryMiB: 4096
+
+

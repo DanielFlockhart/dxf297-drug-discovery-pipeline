@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "animated-backgrounds": "^1.0.11",
+    "firebase": "^11.0.2",
+    "nookies": "^2.5.2",
+    "papaparse": "^5.5.1"
+  }
+}
